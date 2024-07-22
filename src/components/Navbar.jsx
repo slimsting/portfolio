@@ -48,7 +48,7 @@ const Navbar = () => {
       {/* menu icon */}
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden"
+        className="cursor-pointer pr-4 z-20 text-gray-500 md:hidden"
       >
         {nav ? (
           <FaTimes className="text-3xl" />
