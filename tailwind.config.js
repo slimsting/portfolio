@@ -13,6 +13,11 @@ export default {
           "66%": { transform: " translate(-20px, 20px) scale(0.8)" },
           "100%": { transform: "translate(0px, 0px) scale(1)" },
         },
+        hero: {
+          "0%":{ border_radius: ""
+            
+          }
+        }
       },
     },
     fontFamily: {

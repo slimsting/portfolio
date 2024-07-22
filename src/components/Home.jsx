@@ -5,12 +5,15 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <section name="home" className=" h-screen  w-full lg:px-24 ">
-      <div className="max-w-screen-lg mx-auto flex flex-col-reverse items-center justify-center h-full px-4 md:flex-row gap-8">
+    <section name="home" className=" h-screen w-full lg:px-24">
+      <div className="max-w-screen-lg mx-auto flex flex-col-reverse items-center justify-center h-screen px-4 md:flex-row gap-8">
         <div className=" relative flex flex-col justify-center">
+          {/* animated divs */}
           <div className=" absolute top-2 left-2 lg:left-56 w-52 h-52 lg:w-72 lg:h-72 bg-yellow-300 filter blur-2xl opacity-40 animate-blob animation-delay-2000 mix-blend-multiply -z-10 rounded-full "></div>
           <div className=" absolute top-2 right-12 lg-right-96 w-52 h-52 lg:w-72 lg:h-72 bg-green-300 filter blur-2xl opacity-40 animate-blob mix-blend-multiply -z-10 rounded-full "></div>
           <div className=" absolute top-2 right-16 lg:right-96 w-52 h-52 lg:w-72 lg:h-72 bg-purple-300 filter blur-2xl opacity-40 animate-blob animation-delay-4000  mix-blend-multiply -z-10 rounded-full "></div>
+
+          {/* header text */}
           <h2 className=" text-4xl sm:text-4xl lg:text-7xl font-bold ">
             I'm a Front End Developer
           </h2>
@@ -32,6 +35,7 @@ const Home = () => {
           </div>
         </div>
 
+        {/* hero image */}
         <div className="flex items-center justify-center">
           <img
             src={HeroImage}
