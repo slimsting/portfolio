@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="flex  flex-col">
+    <>
       <Navbar />
       <Home />
       <SocialLinks />
@@ -16,7 +16,7 @@ function App() {
       <Portfolio />
       <Skills />
       <Contact />
-    </div>
+    </>
   );
 }
 

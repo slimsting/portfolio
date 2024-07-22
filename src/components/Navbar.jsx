@@ -27,7 +27,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <div className=" flex justify-between items-center w-full h-20  fixed px-4">
+    <nav className=" z-20 flex justify-between items-center w-full h-20  fixed px-4">
       {/* name */}
       <div>
         <h1 className="font-signature text-5xl font-bold ml-2">Newbon</h1>
@@ -48,7 +48,7 @@ const Navbar = () => {
       {/* menu icon */}
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-20 text-gray-500 md:hidden"
+        className="cursor-pointer pr-4 text-gray-500 md:hidden"
       >
         {nav ? (
           <FaTimes className="text-3xl" />
@@ -60,7 +60,7 @@ const Navbar = () => {
       {/* nav menu */}
 
       {nav ? (
-        <ul className=" flex flex-col justify-center items-center absolute top-0 left-0 h-screen bg-gradient-to-b from-gray-300 w-full to-white text-gray-900">
+        <ul className=" z-10 flex flex-col justify-center items-center absolute top-0 left-0 h-screen bg-gradient-to-b from-gray-300 w-full to-white text-gray-900">
           {links.map(({ id, link }) => (
             <li
               key={id}
@@ -80,7 +80,7 @@ const Navbar = () => {
       ) : (
         <></>
       )}
-    </div>
+    </nav>
   );
 };
 
