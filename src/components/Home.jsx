@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const Home = () => {
   return (
-    <section name="home" className=" relative h-screen w-full lg:px-24">
+    <section name="home" className=" relative h-screen w-full lg:px-24 overflow-hidden">
       <div className=" absolute top-[25rem] left-2 lg:left-56 w-52 h-52 lg:w-72 lg:h-72 bg-yellow-300 filter blur-2xl opacity-40 animate-blob animation-delay-2000 mix-blend-multiply -z-10 rounded-full "></div>
       <div className=" absolute top-[25rem] right-12 lg-right-96 w-52 h-52 lg:w-72 lg:h-72 bg-green-300 filter blur-2xl opacity-40 animate-blob mix-blend-multiply -z-10 rounded-full "></div>
       <div className=" absolute top-[26rem] right-16 lg:right-96 w-52 h-52 lg:w-72 lg:h-72 bg-purple-300 filter blur-2xl opacity-40 animate-blob animation-delay-4000  mix-blend-multiply -z-10 rounded-full "></div>

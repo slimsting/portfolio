@@ -59,7 +59,7 @@ const Navbar = () => {
 
       {/* nav menu */}
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 h-screen bg-gradient-to-b from-green-300 w-full to-green-50 text-gray-900">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 h-screen bg-gradient-to-b from-green-100 w-full to-green-50 text-gray-900">
           {links.map(({ id, link }) => (
             <li
               key={id}

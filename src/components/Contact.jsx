@@ -20,14 +20,14 @@ const Contact = () => {
             <input
               type="text"
               name="name"
-              placeholder="Enter your name"
+              placeholder="Name"
               className="p-2 bg-transparent border-2 rounded-md focus:outline-green-500"
               required
             />
             <input
               type="text"
               name="email"
-              placeholder="Enter your email"
+              placeholder="Email"
               className="p-2 bg-transparent border-2 rounded-md focus:outline-green-500"
               required
             />
