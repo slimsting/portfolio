@@ -70,7 +70,7 @@ const SocialLinks = () => {
           </li>
         ))}
       </ul>
-    </sect>
+    </section>
   );
 };
 
