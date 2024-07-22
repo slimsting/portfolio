@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section name="contact" className="w-full h-screen">
+    <section name="contact" className="w-full h-screen lg:px-24">
       <div className=" flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8 ">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
@@ -12,7 +12,11 @@ const Contact = () => {
         </div>
 
         <div className="flex justify-center items-center">
-          <form action="https://getform.io/f/awngyyqb" method="POST" className="flex flex-col w-full gap-4 md:w-1/2">
+          <form
+            action="https://getform.io/f/awngyyqb"
+            method="POST"
+            className="flex flex-col w-full gap-4 md:w-1/2"
+          >
             <input
               type="text"
               name="name"
@@ -23,7 +27,7 @@ const Contact = () => {
             <input
               type="text"
               name="email"
-              placeholder="Enter your name"
+              placeholder="Enter your email"
               className="p-2 bg-transparent border-2 rounded-md focus:outline-green-500"
               required
             />

@@ -48,7 +48,7 @@ const Navbar = () => {
       {/* menu icon */}
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 text-gray-500 md:hidden"
+        className=" z-50 cursor-pointer pr-4 text-gray-500 md:hidden"
       >
         {nav ? (
           <FaTimes className="text-3xl" />
@@ -58,9 +58,8 @@ const Navbar = () => {
       </div>
 
       {/* nav menu */}
-
-      {nav ? (
-        <ul className=" z-10 flex flex-col justify-center items-center absolute top-0 left-0 h-screen bg-gradient-to-b from-gray-300 w-full to-white text-gray-900">
+      {nav && (
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 h-screen bg-gradient-to-b from-green-300 w-full to-green-50 text-gray-900">
           {links.map(({ id, link }) => (
             <li
               key={id}
@@ -77,8 +76,6 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-      ) : (
-        <></>
       )}
     </nav>
   );

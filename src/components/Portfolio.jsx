@@ -19,7 +19,7 @@ const Portfolio = () => {
   return (
     <section
       name="portfolio"
-      className="w-full h-sceen md:h-screen "
+      className="w-full h-sceen md:h-screen lg:px-24 "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
