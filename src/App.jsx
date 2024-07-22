@@ -9,6 +9,8 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <>
+      
+      <div className="max-w-screen-lg mx-auto flex flex-col-reverse items-center justify-center h-full px-4 md:flex-row gap-8"></div>
       <Navbar />
       <Home />
       <SocialLinks />

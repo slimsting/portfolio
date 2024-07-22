@@ -37,7 +37,7 @@ const Contact = () => {
               placeholder="Enter your message"
               className="p-2 bg-transparent border-2 rounded-md focus:outline-green-500"
             ></textarea>
-            <button className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 px-6 py-3 rounded-md my-8 mx-auto flex items-center hover:scale-110 duration-300">
+            <button className="text-white bg-gradient-to-r from-yellow-500 to-green-500 px-6 py-3 rounded-md my-8 mx-auto flex items-center hover:scale-110 duration-300">
               Let's Talk
             </button>
           </form>

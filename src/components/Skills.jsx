@@ -26,13 +26,13 @@ const Skills = () => {
       style: "shadow-teal-500",
     },
     {
-      id: 3,
+      id: 4,
       img: <TbBrandJavascript className="text-5xl  mx-auto text-yellow-500" />,
       name: "Javascript",
       style: "shadow-yellow-500",
     },
     {
-      id: 4,
+      id: 5,
       img: <FaReact className="text-5xl  mx-auto text-cyan-500" />,
       name: "React",
       style: "shadow-cyan-500",

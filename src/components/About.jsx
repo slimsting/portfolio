@@ -10,20 +10,29 @@ const About = () => {
           </p>
         </div>
 
-        <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est officia
-          iure sunt ipsum minima debitis voluptate. Magnam in molestias
-          laboriosam nobis nihil explicabo quisquam voluptatem expedita
-          incidunt, quaerat, ipsam nostrum. Lorem ipsum dolor sit amet
-          consectetur adipisicing elit.
+        <p className="text-xl mt-16">
+          Hello! my nam is Newbon Gadson, a passionate front-end developer
+          dedicated to creating seamless and satisfying user experiences on the
+          web. With a strong commitment to modern web development practices, I
+          ensure that every website I build is visually appealing, highly
+          functional, and accessible. By leveraging responsive design
+          techniques, I guarantee that my sites look and function perfectly on
+          any device, from smartphones to desktops.
         </p>
 
         <br />
 
-        <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque,
-          nihil consequatur ratione, culpa quis architecto qui atque tempora
-          nisi hic asperiores.
+        <p className="text-xl mb-20">
+          Accessibility is at the heart of my development philosophy. I adhere
+          to the Web Content Accessibility Guidelines (WCAG), incorporating
+          features like keyboard navigation, descriptive alt text for images,
+          semantic HTML, and sufficient color contrast to make my websites
+          usable for everyone. Utilizing modern technologies ensures fast
+          loading times, secure connections, and a native app-like experience
+          through Progressive Web Apps (PWAs). I am constantly learning and
+          updating my skills to integrate new technologies and improve the user
+          experience. Your feedback is invaluable to me, and I look forward to
+          creating amazing web experiences together.
         </p>
       </div>
     </section>
