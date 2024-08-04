@@ -36,6 +36,7 @@ const Home = () => {
         </div>
 
         {/* hero image */}
+
         <div className="flex items-center justify-center">
           <img
             src={HeroImage}
