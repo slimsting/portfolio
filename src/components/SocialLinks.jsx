@@ -23,7 +23,7 @@ const SocialLinks = () => {
           GitHub <FaGithub className="text-3xl" />
         </>
       ),
-      href: "htttps://github.com",
+      href: "https://github.com/slimsting",
     },
     {
       id: 3,
@@ -47,7 +47,7 @@ const SocialLinks = () => {
     },
   ];
   return (
-    <section className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+    <section className="flex lg:flex flex-col top-[35%] left-0 fixed">
       <ul>
         {links.map(({ id, child, href, style, download }) => (
           <li
