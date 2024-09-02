@@ -19,7 +19,7 @@ const About = () => {
           techniques, I guarantee that my sites look and function perfectly on
           any device, from smartphones to desktops.
         </p>
-        <p className=" text-xl mt-3 ">
+        {/* <p className=" text-xl mt-3 ">
           Accessibility is at the heart of my development philosophy. I adhere
           to the Web Content Accessibility Guidelines (WCAG), incorporating
           features like keyboard navigation, descriptive alt text for images,
@@ -30,7 +30,7 @@ const About = () => {
           updating my skills to integrate new technologies and improve the user
           experience. Your feedback is invaluable to me, and I look forward to
           creating amazing web experiences together.
-        </p>
+        </p> */}
 
         <br />
 
