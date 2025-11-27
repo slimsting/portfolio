@@ -11,13 +11,17 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-6">
-          Hello! my name is Newbon Gadson, a passionate front-end developer
-          dedicated to creating seamless and satisfying user experiences on the
-          web. With a strong commitment to modern web development practices, I
-          ensure that every website I build is visually appealing, highly
-          functional, and accessible. By leveraging responsive design
-          techniques, I guarantee that my sites look and function perfectly on
-          any device, from smartphones to desktops.
+          Hello! My name is Newbon Gadson, a passionate full‑stack developer
+          dedicated to building seamless and satisfying user experiences on the
+          web. With a strong commitment to modern development practices, I craft
+          applications that are not only visually appealing and highly
+          functional but also scalable, efficient, and accessible. From
+          translating UI designs into responsive, interactive interfaces to
+          architecting robust back‑end systems, I ensure that every solution I
+          deliver performs flawlessly across devices and platforms. By
+          leveraging technologies such as JavaScript, React, Node.js, Express,
+          and MongoDB, I create end‑to‑end web applications that balance
+          user‑centric design with technical excellence.
         </p>
         {/* <p className=" text-xl mt-3 ">
           Accessibility is at the heart of my development philosophy. I adhere

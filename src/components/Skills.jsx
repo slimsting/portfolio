@@ -4,6 +4,7 @@ import { TbBrandCss3 } from "react-icons/tb";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbBrandJavascript } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 
 const Skills = () => {
   const technologies = [
@@ -36,6 +37,12 @@ const Skills = () => {
       img: <FaReact className="text-5xl  mx-auto text-cyan-500" />,
       name: "React",
       style: "shadow-cyan-500",
+    },
+    {
+      id: 6,
+      img: <FaNodeJs className="text-5xl  mx-auto text-green-500" />,
+      name: "Node",
+      style: "shadow-green-500",
     },
   ];
   return (

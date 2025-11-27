@@ -15,7 +15,7 @@ const Home = () => {
 
           {/* header text */}
           <h2 className=" text-4xl sm:text-4xl lg:text-7xl font-bold ">
-            I'm a Front End Developer
+            I'm a Full-Stack Developer
           </h2>
           <p className="py-4 ">
             Passionate about creating seamless, user-centric web expereinces.
